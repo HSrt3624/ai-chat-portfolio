@@ -7,7 +7,7 @@ OpenAI Chat App
 import streamlit as st
 from openai import OpenAI
 
-API_KEY = st.secrets["OpenAI_API_KEY"]
+API_KEY = st.secrets["OPENAI_API_KEY"]
 MODEL_NAME = "gpt-4o"
 AI_MODEL = "openai_model"
 
